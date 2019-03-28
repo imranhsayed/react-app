@@ -1,0 +1,9 @@
+.idea/
+*.log
+npm-debug.log
+node_modules
+react-app-webpack/node_modules
+test-react-app/node_modules
+.DS_Store
+**/.DS_Store
+*.map
