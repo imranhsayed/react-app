@@ -6,14 +6,26 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
 		path: path.resolve( __dirname, 'dist' ),
-		filename: 'main.js'
+		filename: 'main.js',
+		publicPath: '/',
 	},
+	devServer: {
+		historyApiFallback: true
+	 },
 	module: {
 		rules: [
 			{
 				test: /\.js?$/,
 				exclude: /node_module/,
 				use: 'babel-loader'
+			},
+			{
+				test: /\.css?$/,
+				use: [ 'style-loader', 'css-loader' ]
+			},
+			{
+				test: /\.(png|j?g|svg|gif)?$/,
+				use: 'file-loader'
 			}
 		]
 	},

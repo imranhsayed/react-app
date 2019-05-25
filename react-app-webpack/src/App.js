@@ -1,4 +1,6 @@
 import React from 'react';
+import './style.css';
+import ThorImage from './images/thor.png';
 
 class App extends React.Component {
 
@@ -14,15 +16,17 @@ class App extends React.Component {
 		this.setState( { name: 'Imran' } );
 	};
 
-	render() {
-		return(
-			<div>
-				<h1>This is my React Component</h1>
-				<button onClick={this.handleButtonClickEvent}>Click Me</button>
-				{ this.state.name && <p>{this.state.name}</p> }
-			</div>
-		);
-	}
+    render() {
+        return (
+            <React.Fragment>
+                <h1>This is my Component</h1>
+                <button onClick={this.handleButtonClickEvent}>Click Me</button>
+                { this.state.name && <p>{this.state.name}</p> }
+
+                <img src={ThorImage} alt="Thor Image"/>
+            </React.Fragment>
+        )
+    }
 }
 
 export default App
