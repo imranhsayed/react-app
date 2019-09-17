@@ -21,7 +21,7 @@
 
 ## Common Commands :computer:
 
-You can run these commands from `react-app-webpacl` directory.
+You can run these commands from `react-app-webpack` directory.
 
 1. `npm run dev` runs webpack-dev-server for frontend on port 8080 in watch mode 
 2. `npm run prod` runs the build for production.
