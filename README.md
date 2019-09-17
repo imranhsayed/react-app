@@ -1,4 +1,4 @@
-# GraphQL React Application
+# React Application Set Up With Webpack And Babel.
 
 ## Description :clipboard:
 > Example to set up react app with webpack and babel from scratch
