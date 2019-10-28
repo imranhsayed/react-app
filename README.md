@@ -1,7 +1,7 @@
 # React Application Set Up With Webpack And Babel.
 
 ## Description :clipboard:
-> Example to set up react app with webpack and babel from scratch.
+> Example to set up react app with webpack and babel from scratch
 
 ## Built With :zap:
 1. React
